@@ -2,7 +2,7 @@ const postPredictHandler = require('../server/handler');
 
 const routes = [
     {
-        path: '/predict',
+        path: '/predicts',
         method: 'POST',
         handler: postPredictHandler,
         options: {
